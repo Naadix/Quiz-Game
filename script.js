@@ -10,16 +10,17 @@ const question = document.getElementById('quizz'),
     totalPoint = document.querySelector('.nbr-point');
 
 const questionsCoding = [
-   { quiz: "هل لوني المفضل هو الأزرق؟", answer: false },
-  { quiz: "هل وزني يساوي 60 كغ؟", answer: false },
-  { quiz: "هل أحب لولو أكثر من اكرام؟", answer: true },
-  { quiz: "هل أنا من محبي السهر ليلًا؟", answer: false },
-  { quiz: "هل الميستا فتاة احلامك؟", answer: true },
-  { quiz: "هل أكره مشاهدة الأفلام؟", answer: true },
-  { quiz: "هل املك قطة في المنزل؟", answer: false },
-  { quiz: "هل طولي اكثر من 1.70 ؟", answer: true },
-  { quiz: "هل أستطيع الجري لمسافة 100 كلم من اجل الميستا ؟", answer: false },
-  { quiz: "هل أنا شخص منظم؟", answer: true }
+ { quiz: " هل HTML  تُستخدم لإنشاء هيكل صفحات الويب ؟", answer: true },
+    { quiz: "JavaScript يمكنها التحكم في تصميم الصفحة مثل CSS ", answer: false },
+    { quiz: "هل HTML تُعتبر لغة برمجة؟ ", answer: false },
+    { quiz: "هل يمكن استخدام JavaScript في الواجهة الخلفية ؟ ", answer: true },
+    { quiz: "هل CSS تتحكم في منطق الصفحة؟ ", answer: false },
+    { quiz: "هل JavaScript تعمل في المتصفح فقط؟", answer: false },
+    { quiz: "يمكننا استخدام جملة if في JavaScript لاتخاذ قرارات.", answer: true },
+    { quiz: "الكود console.log() يُستخدم لطباعة شيء في الصفحة.", answer: false },
+    { quiz: "لغة Python تُستخدم فقط في الذكاء الاصطناعي ", answer: false },
+    { quiz: "يمكن وضع ملف CSS داخل ملف HTML ", answer: true }
+
 
 ];
 let currObject,
